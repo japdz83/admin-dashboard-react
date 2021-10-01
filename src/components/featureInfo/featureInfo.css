@@ -1,0 +1,81 @@
+.featured{
+    margin-top: 15px;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    
+}
+.featuredItem{
+    flex: 1;
+    margin: 0 20px ;
+    padding: 30px ;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.featuredTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.featuredMoneyContainer{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featuredMoney{
+    font-size: 30px;
+    font-weight: 600;
+}
+.featuredMoneyRate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.featuredIcon{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #2BD47D;
+    background-color:#C0F2D8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.featuredIcon.negative{
+    background-color: #f7d4d7;
+    color: #e05260;
+}
+.featuredIcon.warning{
+    background-color: #ffe8b3;
+    color: #ffc233;
+}
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}
+.featuredRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    background-color: #f7d4d7;
+    color: #e05260;
+    padding:10px;
+}
+.featuredRight.warning{
+    background-color: #ffe8b3;
+    color: #ffc233;
+}
+.featuredRight.positive{
+    color: #2BD47D;
+    background-color:#C0F2D8;
+}
+.bxs-cart-add,
+.bxs-cart-download{
+    font-size: 60px;
+}
